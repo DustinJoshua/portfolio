@@ -1,0 +1,95 @@
+.heroImage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url("../content/images/leaves.jpg");
+  height: 99vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heroText {
+  padding-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+}
+
+.heroText h1 {
+  font-size: 38pt;
+}
+
+.heroText h3 {
+  margin-top: 2rem;
+  color: red;
+}
+
+.down {
+  font-size: 30pt;
+  color: #aaa;
+  margin-top: 10rem;
+  text-decoration: none;
+}
+
+.down:visited {
+  color: #aaa;
+}
+
+.resumeBtn {
+  margin-top: 3rem;
+  width: 14rem;
+}
+
+@media screen and (min-width: 600px) {
+  .heroText h1 {
+    font-size: 46pt;
+  }
+
+  .heroText h3 {
+    font-size: 1.65rem;
+  }
+
+  .resumeBtn {
+    width: 15rem;
+    font-size: 1.1rem;
+  }
+  .down {
+    margin-top: 6rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .heroText h1 {
+    font-size: 52pt;
+  }
+
+  .heroText h3 {
+    font-size: 1.75rem;
+  }
+
+  .resumeBtn {
+    width: 15.5rem;
+    font-size: 1.2rem;
+  }
+  .down {
+    margin-top: 8rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .heroText h1 {
+    font-size: 60pt;
+  }
+
+  .heroText h3 {
+    font-size: 1.9rem;
+  }
+
+  .resumeBtn {
+    width: 16rem;
+    font-size: 1.4rem;
+  }
+  .down {
+    margin-top: 7rem;
+  }
+}

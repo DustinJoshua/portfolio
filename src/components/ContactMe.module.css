@@ -1,0 +1,56 @@
+.container {
+  height: 100%;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0.9),
+    rgba(0, 0, 0, 0.8)
+  );
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container h3 {
+  text-align: center;
+  padding: 0.5rem;
+  color: #ccc;
+  font-size: 1.5em;
+}
+
+.upContainer {
+  text-align: center;
+  margin-bottom: -1rem;
+}
+
+.up {
+  font-size: 30pt;
+  color: #aaa;
+  margin-top: 14rem;
+  text-decoration: none;
+  text-align: center;
+}
+
+.up:visited {
+  color: #aaa;
+}
+
+.contactMethods {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.method {
+  color: white;
+  font-size: 3rem;
+  padding-left: 1rem;
+  margin: 0 2rem;
+}
+
+.method span {
+  font-size: 1rem;
+}
+
+.method:hover {
+  color: red;
+}
