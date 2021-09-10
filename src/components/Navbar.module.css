@@ -1,7 +1,26 @@
 .link {
   color: "#ddd";
+  font-size: 10pt;
 }
 
 .link:hover {
   color: white;
+}
+
+@media screen and (min-width: 600px) {
+  .link {
+    font-size: 11pt;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .link {
+    font-size: 12pt;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .link {
+    font-size: 14pt;
+  }
 }
